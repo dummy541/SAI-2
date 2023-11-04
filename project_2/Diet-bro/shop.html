@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dietbro-Food and fitness</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/shop.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    .header{
+        position: sticky;
+        font-family: 'Montserrat', sans-serif;;
+    }
+  </style>
+
+
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="/index.html" class="logo">
+        Diet-bro<span class="span">.</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#course" class="navbar-link" data-nav-link>All Course</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="/form.html" class="btn btn-primary">Sign Up</a>
+
+      <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+      <!-- 
+        - #Shop
+      -->
+
+      <div id="main_card">
+        <h1>Our meals</h1>
+        <p>Choose your ideal meal & get started!</p>
+          </div>
+        <div class="container">
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/images/breakfast.jpg">
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Breakfast/Eggs</p>
+            <h2 class="card-title">1 week breakfast</h2>
+            <p class="card-body">Eggs Benedict with hollandaise sauce, crispy french toast and an assortment of garden herbs.</p>
+          </div>
+          <div class="card-price">₹ 2160.00</div>
+        </div>
+          <div class="card">
+          <div class="card-image">
+            <img src="/assets/images/lunch.jpg">
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Lunch/salad</p>
+            <h2 class="card-title">1 week lunch plan</h2>
+            <p class="card-body">A vibrant Mediterranean salad: Fresh cucumbers, tomatoes, olives, and feta cheese, drizzled with olive oil and balsamic vinaigrette, a refreshing lunch.</p>
+          </div>
+          <div class="card-price">₹ 2160.00</div>
+        </div>
+          <div class="card">
+          <div class="card-image">
+            <img src="/assets/images/dinner.jpg">
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Dinner</p>
+            <h2 class="card-title">1 week dinner plan</h2>
+            <p class="card-body">A hearty dinner of grilled salmon, lemon herb quinoa, and roasted asparagus, a flavorful and nutritious meal perfect for a cozy evening.</p>
+          </div>
+          <div class="card-price">₹ 2160.00</div>
+        </div>
+          <div class="card">
+          <div class="card-image">
+            <img src="/assets/images/full-meal.jpg">
+          </div>
+          <div class="card-text">
+            <p class="card-meal-type">Full Meal</p>
+            <h2 class="card-title">One month plan</h2>
+            <p class="card-body">A wholesome full meal: Grilled chicken breast, quinoa pilaf with mixed vegetables, steamed broccoli, and a side of fresh fruit salad.</p>
+          </div>
+          <div class="card-price">₹ 20999.90</div>
+        </div>
+        
+        </div>
+</article>
+</main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section" data-section>
+      <div class="container">
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Subscribe Newsletter</p>
+
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Enter email" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-secondary">Subscribe Now</button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">one on one intraction</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Workout plans</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Supplimentation</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Natural Process</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Immune System</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gives You Energy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Discussion</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Customer Support</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Course FAQ’s</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title address-title">Location</p>
+          </li>
+
+          <li>
+            <address class="address">
+            IIIT Bhagalpur,Sabour,<br>
+              Bhagalpur, Bihar, 813210
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        
+
+        
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <script src="./assets/js/script.js" defer></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
